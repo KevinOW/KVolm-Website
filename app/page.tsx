@@ -43,7 +43,7 @@ export default function Home() {
 				<Image
 					isBlurred
 					width={300}
-					alt="NextUI hero Image"
+					alt="Image of me"
 					src="https://i.imgur.com/nwxHWhW.jpeg"
 				/>
 			</div>
