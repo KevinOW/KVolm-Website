@@ -5,6 +5,7 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { DiscordIcon, GithubIcon } from "@/components/icons";
 import { Image } from "@nextui-org/image";
+import {Divider} from "@nextui-org/divider";
 
 export default function Home() {
 	return (
@@ -46,6 +47,8 @@ export default function Home() {
 					src="https://i.imgur.com/nwxHWhW.jpeg"
 				/>
 			</div>
+
+
 		</section>
 	);
 
