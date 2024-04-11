@@ -42,6 +42,6 @@ export const siteConfig = {
 	links: {
 		github: "https://github.com/KevinOW",
 		twitter: "https://twitter.com/qevindesigns",
-		discord: "https://discord.gg/9b6yyZKmH4"
+		discord: "https://discord.gg/9b6yyZKmH4",
 	},
 };

@@ -5,13 +5,13 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { DiscordIcon, GithubIcon } from "@/components/icons";
 import { Image } from "@nextui-org/image";
-import {Divider} from "@nextui-org/divider";
+
 
 export default function Home() {
 	return (
 		<section className="flex flex-col-2 items-left justify-between gap-5 py-5 md:py-3">
 			<div className="max-w-lg text-left justify-left">
-				<h1 className={title({ color: "violet" })}>Welcome to&nbsp;</h1>
+				<h1 className={title({  color: "violet" })}>Welcome to&nbsp;</h1>
 				<br />
 				<h1 className={title()}>
 					my personal webiste! Hope you enjoy it.
