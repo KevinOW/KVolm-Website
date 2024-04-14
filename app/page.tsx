@@ -50,7 +50,9 @@ export default function Home() {
         />
       </div>
 
-      <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8 py-10">
+      <div className="flex flex-row flex-wrap">
+
+      <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8 py-10 basis-3/4">
         <Card isFooterBlurred className="col-span-12 sm:col-span-4 h-[350px]">
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
@@ -75,6 +77,7 @@ export default function Home() {
             </div>
           </CardFooter>
         </Card>
+        <Link className="col-span-12 sm:col-span-4 h-[350px]" href="/projects/renewafil">
         <Card isFooterBlurred className="col-span-12 sm:col-span-4 h-[350px]">
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
@@ -87,7 +90,7 @@ export default function Home() {
             removeWrapper
             alt="Card background"
             className="z-0 w-full h-full object-cover"
-            src="https://i.imgur.com/a8Aidr8.jpeg"
+            src="https://i.imgur.com/SZMw1x3.png"
           />
           <CardFooter className="absolute bg-black/40 bottom-0 z-10 dark:border-default-100">
             <div className="flex flex-grow gap-2 items-center">
@@ -99,6 +102,8 @@ export default function Home() {
             </div>
           </CardFooter>
         </Card>
+        </Link>
+        <Link className="col-span-12 sm:col-span-4 h-[350px]" href="/projects/abro">
         <Card isFooterBlurred className="col-span-12 sm:col-span-4 h-[350px]">
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
@@ -129,6 +134,8 @@ export default function Home() {
             </div>
           </CardFooter>
         </Card>
+        </Link>
+        <Link className="w-full h-[300px] col-span-12 sm:col-span-5" href="/projects/coins">
         <Card
           isFooterBlurred
           className="w-full h-[300px] col-span-12 sm:col-span-5"
@@ -157,10 +164,13 @@ export default function Home() {
             </div>
           </CardFooter>
         </Card>
+        </Link>
+
         <Card
           isFooterBlurred
           className="w-full h-[300px] col-span-12 sm:col-span-7"
         >
+           <Link className="w-full h-[300px] col-span-12 sm:col-span-7" href="/projects/nollning">
           <CardHeader className="absolute z-10 top-1 flex-col items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
               Photography
@@ -168,6 +178,7 @@ export default function Home() {
             <h4 className="text-white/90 font-medium text-xl">
               Nollningen 2023
             </h4>
+
           </CardHeader>
           <Image
             isZoomed
@@ -176,24 +187,27 @@ export default function Home() {
             className="x-2 z-0 w-full h-full object-cover"
             src="https://i.imgur.com/Pkg3ymu.jpg"
           />
+          </Link>
           <CardFooter className="absolute bg-black/40 bottom-0 z-10 dark:border-default-100">
             <div className="flex flex-grow gap-2 items-center">
               <div className="flex flex-col">
-                <p className="text-tiny text-white/60">Lorem ipsum dolor</p>
-                <p className="text-tiny text-white/60">sit amet, consectetur</p>
-                <p className="text-tiny text-white/60">adipiscing elit</p>
+                <p className="text-tiny text-white/60">Photos for</p>
+                <p className="text-tiny text-white/60">Nollningen 2023 at Halmstad University</p>
               </div>
             </div>
+            <Link href="https://drive.google.com/drive/u/2/folders/1PX0Ptyzf1wcjaDGlH0yJii8ZCG8EDrbV">
             <Button color="primary" radius="full" size="sm">
               View Images
             </Button>
+            </Link>
           </CardFooter>
         </Card>
       </div>
-      <div>
+      <div className="basis-1/4 py-10">
         <h1 className={title({ color: "violet" })}>Projects &&nbsp;</h1>
         <br />
         <h2 className={title()}>my interests</h2>
+      </div>
       </div>
     </section>
   );

@@ -54,7 +54,7 @@ export default function RootLayout({
             <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
               {children}
             </main>
-            <footer className="w-full flex flex-row flex-grow flex-wrap justify-center py-3">
+            <footer className="w-full flex flex-row justify-center py-3">
               <div className=" gap-1 text-current basis-4/12">
                 <span className="underline decoration-solid text-default-600 font-bold">Contact Me</span>
                 <br />
@@ -67,7 +67,7 @@ export default function RootLayout({
               </div>
 
               <div className="items-center gap-1 text-current basis-4/12">
-				<h2 className="underline decoration-solid text-default-600 font-bold">Socials</h2>
+                <h2 className="underline decoration-solid text-default-600 font-bold">Socials</h2>
                 <div className="flex flex-row gap-2">
                   <Link
                     isExternal
@@ -102,19 +102,19 @@ export default function RootLayout({
 
               <div className="items-center gap-1 text-current ">
                 <span className="underline decoration-solid text-default-600 font-bold">Links</span>
-				<br />
+                <br />
                 <div className="flex flex-row items-center gap-2 py-1">
                   <BugIcon className="text-2xl text-default-500" />
                   <p className="text-default-600">
                     Report a bug!
                   </p>
-				</div>
-				<div className="flex flex-row items-center gap-2 py-1">
+                </div>
+                <div className="flex flex-row items-center gap-2 py-1">
                   <BugIcon className="text-2xl text-default-500" />
                   <p className="text-default-600">
                     Improve the site!
                   </p>
-				</div>
+                </div>
               </div>
             </footer>
           </div>
