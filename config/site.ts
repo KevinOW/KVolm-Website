@@ -43,5 +43,6 @@ export const siteConfig = {
 		github: "https://github.com/KevinOW",
 		twitter: "https://twitter.com/qevindesigns",
 		discord: "https://discord.gg/9b6yyZKmH4",
+		instagram: "https://www.instagram.com/kevinvolm/",
 	},
 };
