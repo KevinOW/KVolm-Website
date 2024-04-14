@@ -1,13 +1,8 @@
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/KevinOW/KVolm-Website/main?style=for-the-badge)
 
-# Personal Website
-
-
 # Personal Website Project
 
 This is a website for myself were I post about projects, my intrests and much more. Developed with next.js with the help of NexUI.
-
-
 
 
 ## Plans for website
