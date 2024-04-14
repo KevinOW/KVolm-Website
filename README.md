@@ -3,7 +3,6 @@
 # Personal Website
 
 
-## Plans
 # Personal Website Project
 
 This is a website for myself were I post about projects, my intrests and much more. Developed with next.js with the help of NexUI.
