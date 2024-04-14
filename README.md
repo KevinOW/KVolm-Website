@@ -14,7 +14,7 @@ This is a website for myself were I post about projects, my intrests and much mo
 ## Plans for website
 
 **Main page**
-- [ ]  Add cards to display information about the website (Such as projects, blogs, about me)
+- [X]  Add cards to display information about the website (Such as projects, blogs, about me)
 
 **About me**
 - [ ]  Add avatar
@@ -29,5 +29,6 @@ This is a website for myself were I post about projects, my intrests and much mo
 - [ ]  Creating a functioning blog
 
 **Footer**
-- [ ]  Contact form
-- [ ]  Add socials
+- [X]  Contact form
+- [X]  Add socials
+- [X]  Links

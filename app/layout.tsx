@@ -54,8 +54,8 @@ export default function RootLayout({
             <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
               {children}
             </main>
-            <footer className="w-full flex flex-row items-stretch justify-center py-3">
-              <div className="items-center gap-1 text-current basis-4/12">
+            <footer className="w-full flex flex-row flex-grow flex-wrap justify-center py-3">
+              <div className=" gap-1 text-current basis-4/12">
                 <span className="underline decoration-solid text-default-600 font-bold">Contact Me</span>
                 <br />
                 <div className="flex flex-row items-center gap-2">
@@ -68,7 +68,7 @@ export default function RootLayout({
 
               <div className="items-center gap-1 text-current basis-4/12">
 				<h2 className="underline decoration-solid text-default-600 font-bold">Socials</h2>
-                <div className="flex flex-row items-start items-center gap-2">
+                <div className="flex flex-row gap-2">
                   <Link
                     isExternal
                     href={siteConfig.links.instagram}
