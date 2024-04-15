@@ -1,4 +1,17 @@
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/KevinOW/KVolm-Website/main?style=for-the-badge)
+
+<div align="center">
+  <img src="https://img.shields.io/github/last-commit/KevinOW/KVolm-Website/main?style=for-the-badge" height="25" alt="Last Commit"  />
+  <img width="12" />
+  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge" height="25" alt="nextjs logo"  />
+  <img width="12" />
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" height="25" alt="react logo"  />
+  <img width="12" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" height="25" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white&style=for-the-badge" height="25" alt="eslint logo"  />
+</div>
+
+###
 
 # Personal Website Project
 
