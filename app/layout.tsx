@@ -15,6 +15,7 @@ import {
   InstagramIcon,
   MailIcon,
   BugIcon,
+  BalloonHeartIcon,
 } from "@/components/icons";
 
 export const metadata: Metadata = {
@@ -110,7 +111,7 @@ export default function RootLayout({
                   </p>
                 </div>
                 <div className="flex flex-row items-center gap-2 py-1">
-                  <BugIcon className="text-2xl text-default-500" />
+                  <BalloonHeartIcon className="text-2xl text-default-500" />
                   <p className="text-default-600">
                     Improve the site!
                   </p>
