@@ -2,7 +2,11 @@
 
 # Personal Website Project
 
-This is a website for myself were I post about projects, my intrests and much more. Developed with next.js with the help of NexUI.
+This is a website for myself were I post about projects, my intrests and much more.
+
+Developed with Next.JS, React, Tailwind & Typescript
+
+Helpful additions are Eslint and Framer Motion
 
 
 ## Plans for website
