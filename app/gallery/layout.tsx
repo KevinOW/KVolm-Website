@@ -1,11 +1,11 @@
-export default function NollningLayout({
+export default function GalleryLayout({
 	children,
 }: {
 	children: React.ReactNode;
 }) {
 	return (
 		<section className="flex flex-col items-center justify-center gap-4">
-			<div className="inline-block max-w-lg text-center justify-center">
+			<div className="inline-block max-w-6xl text-center justify-center">
 				{children}
 			</div>
 		</section>

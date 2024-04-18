@@ -20,6 +20,10 @@ export const siteConfig = {
       label: "Blog",
       href: "/blog",
     },
+    {
+	  label: "Gallery",
+	  href: "/gallery",
+	},
 	],
 	navMenuItems: [
 		{
